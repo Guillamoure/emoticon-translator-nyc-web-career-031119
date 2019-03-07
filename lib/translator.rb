@@ -18,8 +18,10 @@ def load_library(file)
   return emoticons
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yaml, emo)
   # code goes here
+  load_library(yaml)
+  
 end
 
 def get_english_meaning
