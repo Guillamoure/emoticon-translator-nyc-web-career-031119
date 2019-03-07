@@ -13,7 +13,7 @@ def load_library(file)
   end
   emoticons["get_meaning"] = {}
   file.each do |meaning, emote|
-    emoticons["get_meaning"][]
+    emoticons["get_meaning"][emote[1]] = meaning
   end
 end
 
