@@ -30,6 +30,7 @@ def get_japanese_emoticon(yaml, emo)
   return "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
+def get_english_meaning(yaml, emo)
   # code goes here
+  
 end
