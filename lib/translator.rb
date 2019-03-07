@@ -1,9 +1,9 @@
 # require modules here
-
+require_relative "./lib/emoticons.yml"
 
 def load_library(file)
   # code goes here
-  require "file"
+  return file
 end
 
 def get_japanese_emoticon
