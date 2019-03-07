@@ -3,7 +3,7 @@
 
 def load_library(file)
   # code goes here
-  require ./lib/emoticons.yml
+  require "file"
 end
 
 def get_japanese_emoticon
