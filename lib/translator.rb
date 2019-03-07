@@ -5,8 +5,11 @@ require 'pry'
 def load_library(file)
   # code goes here
   
-  emoticons = YAML.load_file(file)
-  return emoticons
+  full_file = YAML.load_file(file)
+  emoticons = {}
+  emoticons["get_emoticon"] = {}
+  emoticons["get_meaning"] = {}
+  
 end
 
 def get_japanese_emoticon
