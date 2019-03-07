@@ -21,6 +21,7 @@ end
 def get_japanese_emoticon(yaml, emo)
   # code goes here
   load_library(yaml)
+  binding.pry
   emoticons["get_emoticon"].each do |english, japanese|
     if english == emo
       return japanese
