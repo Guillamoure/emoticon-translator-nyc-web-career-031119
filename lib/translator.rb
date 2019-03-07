@@ -32,5 +32,12 @@ end
 
 def get_english_meaning(yaml, emo)
   # code goes here
+  emoticons = load_library(yaml)
   
+  emoticons["get_emoticon"].each do |english, japanese|
+    if english == emo
+      return japanese
+    end
+  end
+  return "Sorry, that emoticon was not found"
 end
